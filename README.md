@@ -26,4 +26,12 @@ What will React allow you to do that would have been difficult with Bootstrap?
 A brief list of the React Components you will need to develop for your application
 Brief justifications for including these components
 
--
+**Mainpage**
+
+-   <App>
+    + <Nav />
+    + <CategoryMenu />
+    + <CallToAction />
+    + <ProductCards />
+    + <Pagination />
+    + <Footer />
