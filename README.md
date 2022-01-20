@@ -62,3 +62,8 @@ Brief justifications for including these components
         + CardTitle (display product name)
         + CardSubtitle (display Price)
         + CardText (display product location)
+---
+
+### Screenshot
+
+![alt text](https://github.com/quachan888/SoloShop/blob/main/img/index.png?raw=true)
