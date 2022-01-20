@@ -9,7 +9,7 @@
 
 ## Nucamp Week 1 - Portfolio Project Assignment
 
-1. How your Project will Benefit from React
+**1. How your Project will Benefit from React**
 
 What are the main differences between Bootstrap and React?
 
@@ -21,10 +21,10 @@ What will React allow you to do that would have been difficult with Bootstrap?
 -   React help me to build components which I can reuse multiple times.
 -   My project is an eCommerce website which has multiple cards presenting products (image, title, description, price, location...). By using React, I can just create only 1 component Card and then pass the data to that component.
 
-2. Expected List of React Components
+**2. Expected List of React Components**
 
-A brief list of the React Components you will need to develop for your application
-Brief justifications for including these components
+- A brief list of the React Components you will need to develop for your application
+- Brief justifications for including these components
 
 **Mainpage**
 
@@ -67,3 +67,7 @@ Brief justifications for including these components
 ### Screenshot
 
 ![alt text](https://github.com/quachan888/SoloShop/blob/main/img/index.png?raw=true)
+
+### A web/app for user to buy and sell locally
+- [Live view with Github Page](https://quachan888.github.io/SoloShop/)
+- [Figma design](https://www.figma.com/file/0PDCXF2rgG5nNt4J395ADB/SoloShop?node-id=0%3A1)
