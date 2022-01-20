@@ -28,10 +28,37 @@ Brief justifications for including these components
 
 **Mainpage**
 
--   <App>
-    + <Nav />
-    + <CategoryMenu />
-    + <CallToAction />
-    + <ProductCards />
-    + <Pagination />
-    + <Footer />
+-   App
+    + Nav (Nav component, include Logo, SearchBox, rightside NavMenu)
+    + CategoryMenu 
+    + CallToAction 
+    + ProductCards (display Product cards with image, name, price, location)
+    + Pagination 
+    + Footer 
+
+- Nav
+    + Logo
+    + SearchBox (compent SearchBox with an input and button)
+    + NavMenu
+
+- SearchBox
+    + input
+    + seachBtn 
+
+- Categorymenu (2 layer Category)
+    + CategoryMain
+    + CategorySub
+
+- CallToAction
+    + Text
+    + Button
+
+- ProductCards 
+    + ProductCard (Smaller component for each product)
+
+- ProductCard 
+    + CardImg
+    + CardBody
+        + CardTitle (display product name)
+        + CardSubtitle (display Price)
+        + CardText (display product location)
