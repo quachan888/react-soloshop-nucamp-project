@@ -7,7 +7,7 @@
 
 ---
 
-## Nucamp Week 1 - Portfolio Project Assignment
+# Nucamp Week 1 - Portfolio Project Assignment
 
 **1. How your Project will Benefit from React**
 
@@ -23,45 +23,68 @@ What will React allow you to do that would have been difficult with Bootstrap?
 
 **2. Expected List of React Components**
 
-- A brief list of the React Components you will need to develop for your application
-- Brief justifications for including these components
+-   A brief list of the React Components you will need to develop for your application
+-   Brief justifications for including these components
 
 **Mainpage**
 
 -   App
-    + Nav (Nav component, include Logo, SearchBox, rightside NavMenu)
-    + CategoryMenu 
-    + CallToAction 
-    + ProductCards (display Product cards with image, name, price, location)
-    + Pagination 
-    + Footer 
 
-- Nav
-    + Logo
-    + SearchBox (compent SearchBox with an input and button)
-    + NavMenu
+    -   Nav (Nav component, include Logo, SearchBox, rightside NavMenu)
+    -   CategoryMenu
+    -   CallToAction
+    -   ProductCards (display Product cards with image, name, price, location)
+    -   Pagination
+    -   Footer
 
-- SearchBox
-    + input
-    + seachBtn 
+-   Nav
 
-- Categorymenu (2 layer Category)
-    + CategoryMain
-    + CategorySub
+    -   Logo
+    -   SearchBox (compent SearchBox with an input and button)
+    -   NavMenu
 
-- CallToAction
-    + Text
-    + Button
+-   SearchBox
 
-- ProductCards 
-    + ProductCard (Smaller component for each product)
+    -   input
+    -   seachBtn
 
-- ProductCard 
-    + CardImg
-    + CardBody
-        + CardTitle (display product name)
-        + CardSubtitle (display Price)
-        + CardText (display product location)
+-   Categorymenu (2 layer Category)
+
+    -   CategoryMain
+    -   CategorySub
+
+-   CallToAction
+
+    -   Text
+    -   Button
+
+-   ProductCards
+
+    -   ProductCard (Smaller component for each product)
+
+-   ProductCard
+    -   CardImg
+    -   CardBody
+        -   CardTitle (display product name)
+        -   CardSubtitle (display Price)
+        -   CardText (display product location)
+
+---
+
+# Nucamp Week 1 - Portfolio Project Assignment
+
+1. Introduction
+   Give a brief introduction to your project and the list of features, with a special focus on data management (add/change/delete).
+2. User Interface Design and Prototype
+   Give some sample user interface layouts for your application. You can use either wireframe diagrams or prototyping tools to construct the mock representations of your UI design.
+   Briefly explain the rationale behind designing your UI and how it is geared towards supporting the list of features for your application.
+3. Navigation Structure
+   Give a brief overview of the navigation structure for your application.
+   Briefly indicate a typical flow of your application in terms of user experience. You can use any way of representing the flow. You can also construct a prototype using one of the prototyping tools to illustrate this.
+   Indicate how your React components are connected to one another (routing).
+4. References
+   Provide any references relevant to the report.
+
 ---
 
 ### Screenshot
@@ -69,5 +92,6 @@ What will React allow you to do that would have been difficult with Bootstrap?
 ![alt text](https://github.com/quachan888/SoloShop/blob/main/img/index.png?raw=true)
 
 ### A web/app for user to buy and sell locally
-- [Live view with Github Page](https://quachan888.github.io/SoloShop/)
-- [Figma design](https://www.figma.com/file/0PDCXF2rgG5nNt4J395ADB/SoloShop?node-id=0%3A1)
+
+-   [Live view with Github Page](https://quachan888.github.io/SoloShop/)
+-   [Figma design](https://www.figma.com/file/0PDCXF2rgG5nNt4J395ADB/SoloShop?node-id=0%3A1)
