@@ -20,10 +20,7 @@ export default function ProductCard(props) {
             <MDBCol lg="3" md="4" sm="6" size="6" className="p-2">
                 <MDBCard style={{ maxWidth: "22rem" }}>
                     <MDBRipple rippleColor="light" rippleTag="div" className="bg-image hover-overlay">
-                        <MDBCardImage src={props.product.tile.photos[0].detail.url} fluid alt="..." style={cardImgStyle} />
-                        <a>
-                            <div className="mask" style={{ backgroundColor: "rgba(251, 251, 251, 0.15)" }}></div>
-                        </a>
+                        <MDBCardImage src={props.product.tile.photos[0].detail.url} fluid alt={props.product.tile.title} style={cardImgStyle} />
                     </MDBRipple>
                     <MDBCardBody>
                         <MDBCardText className="fw-bold" style={titleStyle}>

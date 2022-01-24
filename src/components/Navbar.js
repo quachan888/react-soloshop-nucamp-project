@@ -5,34 +5,42 @@ export default function Navbar() {
     const [showNavNoTogglerSecond, setShowNavNoTogglerSecond] = useState(false);
 
     return (
-        <>
-            <MDBNavbar expand="md">
-                <MDBContainer>
-                    <MDBNavbarBrand href="#" className="text-primary fw-bold">
-                        SoloShop
-                    </MDBNavbarBrand>
-                    <MDBNavbarToggler type="button" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation" onClick={() => setShowNavNoTogglerSecond(!showNavNoTogglerSecond)}>
-                        <MDBIcon icon="bars" fas />
-                    </MDBNavbarToggler>
-                    <MDBCollapse navbar show={showNavNoTogglerSecond}>
-                        <MDBNavbarNav className="mr-auto mb-2 mb-lg-0">
-                            <MDBNavbarItem>
-                                <MDBNavbarLink href="#">Home</MDBNavbarLink>
-                            </MDBNavbarItem>
+        <MDBNavbar expand="md">
+            <MDBContainer>
+                <MDBNavbarBrand href="#" className="text-primary fw-bold">
+                    SoloShop
+                </MDBNavbarBrand>
+                <MDBNavbarToggler type="button" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation" onClick={() => setShowNavNoTogglerSecond(!showNavNoTogglerSecond)}>
+                    <MDBIcon icon="bars" fas />
+                </MDBNavbarToggler>
 
-                            <MDBNavbarItem>
-                                <MDBNavbarLink href="#">Login</MDBNavbarLink>
-                            </MDBNavbarItem>
-                        </MDBNavbarNav>
-                        <form className="d-flex input-group w-auto">
-                            <input type="search" className="form-control" placeholder="Search..." aria-label="Search" />
-                            <MDBBtn color="primary">
-                                <MDBIcon fas icon="search" />
-                            </MDBBtn>
-                        </form>
-                    </MDBCollapse>
-                </MDBContainer>
-            </MDBNavbar>
-        </>
+                <MDBCollapse navbar show={showNavNoTogglerSecond}>
+                    <form className="d-flex input-group w-50 ms-5">
+                        <input type="search" className="form-control" placeholder="Search..." aria-label="Search" />
+                        <MDBBtn color="primary">
+                            <MDBIcon fas icon="search" />
+                        </MDBBtn>
+                    </form>
+                    <MDBNavbarNav className=" mb-2 mb-lg-0 justify-content-end">
+                        <MDBNavbarItem>
+                            <MDBNavbarLink href="#" className="text-dark">
+                                <MDBIcon fas icon="heart" /> Saved
+                            </MDBNavbarLink>
+                        </MDBNavbarItem>
+
+                        <MDBNavbarItem>
+                            <MDBNavbarLink href="#" className="text-dark">
+                                <MDBIcon fas icon="inbox" /> Inbox
+                            </MDBNavbarLink>
+                        </MDBNavbarItem>
+                        <MDBNavbarItem>
+                            <MDBNavbarLink href="#" className="text-dark">
+                                <MDBIcon fas icon="tags" /> Selling
+                            </MDBNavbarLink>
+                        </MDBNavbarItem>
+                    </MDBNavbarNav>
+                </MDBCollapse>
+            </MDBContainer>
+        </MDBNavbar>
     );
 }

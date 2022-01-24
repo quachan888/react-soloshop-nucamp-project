@@ -7,7 +7,7 @@
 
 ---
 
-# Nucamp Week 1 - Portfolio Project Assignment
+# Nucamp Week 2 - Portfolio Project Assignment
 
 **1. How your Project will Benefit from React**
 
@@ -71,7 +71,7 @@ What will React allow you to do that would have been difficult with Bootstrap?
 
 ---
 
-# Nucamp Week 1 - Portfolio Project Assignment
+# Nucamp Week 3 - Portfolio Project Assignment
 
 1. Introduction
    Give a brief introduction to your project and the list of features, with a special focus on data management (add/change/delete).
