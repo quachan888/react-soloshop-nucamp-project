@@ -1,4 +1,197 @@
-export const data = [
+export const categories = [
+    {
+        cat_id: 1,
+        title: "Electronics & Media",
+        parent: null,
+    },
+    {
+        cat_id: 2,
+        title: "Audio",
+        parent: 1,
+    },
+    {
+        cat_id: 3,
+        title: "Cellphones",
+        parent: 1,
+    },
+    {
+        cat_id: 4,
+        title: "Photography",
+        parent: 1,
+    },
+    {
+        cat_id: 5,
+        title: "Computer & Laptop",
+        parent: 1,
+    },
+    {
+        cat_id: 6,
+        title: "TVs & Media",
+        parent: 1,
+    },
+    {
+        cat_id: 7,
+        title: "Video games",
+        parent: 1,
+    },
+    {
+        cat_id: 8,
+        title: "Home & Garden",
+        parent: null,
+    },
+    {
+        cat_id: 9,
+        title: "Furniture",
+        parent: 8,
+    },
+    {
+        cat_id: 10,
+        title: "Household",
+        parent: 8,
+    },
+    {
+        cat_id: 11,
+        title: "Appliances",
+        parent: 8,
+    },
+    {
+        cat_id: 12,
+        title: "Kitchen & Dining",
+        parent: 8,
+    },
+    {
+        cat_id: 13,
+        title: "Bathroom",
+        parent: 8,
+    },
+    {
+        cat_id: 14,
+        title: "Home Improvement",
+        parent: 8,
+    },
+    {
+        cat_id: 15,
+        title: "Lawn & Garden",
+        parent: 8,
+    },
+    {
+        cat_id: 16,
+        title: "Home Décor",
+        parent: 8,
+    },
+    {
+        cat_id: 17,
+        title: "Clothes & Shoes",
+        parent: null,
+    },
+    {
+        cat_id: 18,
+        title: "Women's Clothing",
+        parent: 17,
+    },
+    {
+        cat_id: 19,
+        title: "Men's Clothing",
+        parent: 17,
+    },
+    {
+        cat_id: 20,
+        title: "Women's Shoes",
+        parent: 17,
+    },
+    {
+        cat_id: 21,
+        title: "Men's Shoes",
+        parent: 17,
+    },
+    {
+        cat_id: 22,
+        title: "Kid",
+        parent: 17,
+    },
+    {
+        cat_id: 23,
+        title: "Jewelry & Accessories",
+        parent: 17,
+    },
+    {
+        cat_id: 24,
+        title: "Sport & Outdoor",
+        parent: null,
+    },
+    {
+        cat_id: 25,
+        title: "Exercise",
+        parent: 24,
+    },
+    {
+        cat_id: 26,
+        title: "Bikes",
+        parent: 24,
+    },
+    {
+        cat_id: 27,
+        title: "Fishing",
+        parent: 24,
+    },
+    {
+        cat_id: 28,
+        title: "Camping & Hiking",
+        parent: 24,
+    },
+    {
+        cat_id: 29,
+        title: "Water Sports",
+        parent: 24,
+    },
+    {
+        cat_id: 30,
+        title: "Golf",
+        parent: 24,
+    },
+    {
+        cat_id: 31,
+        title: "Vehicles",
+        parent: null,
+    },
+    {
+        cat_id: 32,
+        title: "Cars & Truck",
+        parent: 31,
+    },
+    {
+        cat_id: 33,
+        title: "Motocycles",
+        parent: 31,
+    },
+    {
+        cat_id: 34,
+        title: "Campers & RVs",
+        parent: 31,
+    },
+    {
+        cat_id: 35,
+        title: "Boats & Marine",
+        parent: 31,
+    },
+    {
+        cat_id: 36,
+        title: "Trailers",
+        parent: 31,
+    },
+    {
+        cat_id: 37,
+        title: "Tires & Rims",
+        parent: 31,
+    },
+    {
+        cat_id: 38,
+        title: "Auto Parts & Accessories",
+        parent: 31,
+    },
+];
+
+export const sampleProduct = [
     {
         type: "ad",
         tile: {
