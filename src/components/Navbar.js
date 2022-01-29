@@ -5,7 +5,7 @@ export default function Navbar() {
     const [showNavNoTogglerSecond, setShowNavNoTogglerSecond] = useState(false);
 
     return (
-        <MDBNavbar expand="md">
+        <MDBNavbar expand="md" className="mb-4">
             <MDBContainer>
                 <MDBNavbarBrand href="#" className="text-primary fw-bold">
                     SoloShop

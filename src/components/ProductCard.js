@@ -3,6 +3,7 @@ import { MDBCard, MDBCardBody, MDBCardTitle, MDBCardText, MDBCardImage, MDBBtn, 
 
 export default function ProductCard(props) {
     // console.log(props.product);
+
     if (props.product) {
         const titleStyle = {
             overflow: "hidden",
@@ -18,7 +19,7 @@ export default function ProductCard(props) {
 
         return (
             <MDBCol lg="3" md="4" sm="6" size="6" className="p-2">
-                <MDBCard style={{ maxWidth: "22rem" }}>
+                <MDBCard>
                     <MDBRipple rippleColor="light" rippleTag="div" className="bg-image hover-overlay">
                         <MDBCardImage src={props.product.tile.photos[0].detail.url} fluid alt={props.product.tile.title} style={cardImgStyle} />
                     </MDBRipple>
@@ -27,7 +28,7 @@ export default function ProductCard(props) {
                             {props.product.tile.title}
                         </MDBCardText>
                         <MDBCardTitle>${props.product.tile.price}</MDBCardTitle>
-                        <MDBCardText>{props.product.tile.locationDetails.locationName}</MDBCardText>
+                        <MDBCardText className="text-black-50">{props.product.tile.locationDetails.locationName}</MDBCardText>
                     </MDBCardBody>
                 </MDBCard>
             </MDBCol>

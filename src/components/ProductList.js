@@ -4,7 +4,7 @@ import { sampleProduct } from "../shared/data";
 
 export default function ProductList() {
     return (
-        <MDBRow>
+        <MDBRow className="bg-light">
             {sampleProduct.map((e) => {
                 if (e.type === "item") {
                     return <ProductCard key={e.tile.id} product={e} />;
